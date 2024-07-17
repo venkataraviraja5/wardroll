@@ -1,0 +1,35 @@
+.card{
+    height: 108px;
+    width: 300px;
+    background-color: #f3dde3;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 10px;
+}
+
+.heading{
+    margin-top: -15px;
+}
+
+.brandcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  
+  .brand-card{
+    height: 180px;
+    width: 250px;
+    background-color:#ffeaef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border-color: aqua;
+  }

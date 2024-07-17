@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  width: 70%;
+  padding-right: 10px;
+  padding-left: 24px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  background-color: #ff2f6f;
+  border-radius: 76px;
+  height: 35px;
+  margin-top: 24px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.flexnavbar{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
 }
 
-.App-link {
-  color: #61dafb;
+.middle{
+  display: flex;
+   gap: 24px;
+   color: whitesmoke;
+   font-family: Figtree,sans-serif !important
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.startbutton{
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  color: #111;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: Figtree,sans-serif !important;
+  cursor: pointer;
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.startbutton:hover{
+  background-color: #ff2f6f;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.aboutseconddiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: -700px;
+}
+
+.welcome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.share{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  gap: 10px;
+  margin-top: -100px;
+}
+
+.thirdline{
+  letter-spacing: 0.00938em;
+  color: #727272;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 20px;
+  margin-top: -70px;
+}
+
+.getstart{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.getstart > div{
+  letter-spacing: 0.00938em;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Figtree;
+  line-height: 150%;
+  background-color: #ff2f6f;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 50px;
+  width: 150px;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundimg{
+  height: 700px;
+  width: 90%;
+  position: relative;
+  top: -510px;
+  z-index:99;
+}
+
+.leftimage{
+  height: 400px;
+  width: 180px;
+  position: relative;
+  left: 30px;
+  z-index: 100;
+}
+
+.rightimage{
+  height: 400px;
+  width: 180px;
+  position: relative;
+  right: 30px;
+  z-index: 100;
+}
+
+.centerimage{
+  height: 490px;
+  width: 280px;
+  z-index: 999;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.body{
+  background-color: #f7ebee;
+  
+}
+
+
